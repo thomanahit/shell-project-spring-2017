@@ -1,0 +1,4 @@
+*.o
+*.so
+*.dSYM
+iterate_shell
