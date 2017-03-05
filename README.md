@@ -66,4 +66,12 @@ bash
   |--git
 ```
 
-That is, `bash` is the parent of `git`
+That is, `bash` is the parent of `git`. You can see the entire process
+tree with
+
+```
+$ pstree
+```
+
+If you don't have `pstree` then use `aptitude` to install it,
+`$ aptitude install pstree`.
