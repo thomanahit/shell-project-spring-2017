@@ -8,8 +8,15 @@ any other `UNIX` aka any `Linux`.
 Your code should be implemented in the `.cpp` files with an
 appropriate API exposed in the respective `.h` file.
 
-requirements
-------------
+requirements per platforms
+--------------------------
+
+# OS X
+
+Congrats, on `OS X` you don't need to do anything other than have
+`XCode` installed.
+
+# Linux 
 
 The project uses `clang` and the `fsanitize` so you'll need to have
 these installed on your machine, use `aptitude`
@@ -17,6 +24,14 @@ these installed on your machine, use `aptitude`
 ```shell
 $ aptitude install libc++1 clang clang++ lldb make libasan1 libasan1-dbg libasan0
 ```
+
+# Windows
+
+Your options are: 
+
+1. Get rid of Windows, install Linux (Debian or Ubuntu is good)
+2. Dual boot Linux and Windows
+3. Get a Virtual Machine on Windows, can use VMWare or Virtual Box.
 
 Development Roadmap (Always check for updates as this is always updating)
 -------------------------------------------------------------------------
