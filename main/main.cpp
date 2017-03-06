@@ -3,9 +3,8 @@
 int main(int argc, char **argv) {
 
   while (true) {
-    test_function();
+    get_comand();
     break;
   }
-
   return 0;
 }

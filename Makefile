@@ -1,6 +1,6 @@
 main := main/main.cpp
 program := iterate_shell
-flags := -std=c++14 -g -Wall -Wextra -fsanitize=address
+flags := -std=c++14 -g -Wall -Wextra -fsanitize=address -fPIC -I./
 lib_name := libshell.so
 lib_flags := -shared -fPIC
 # Just add another file here when you're done, ending in .o

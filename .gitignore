@@ -1,4 +1,5 @@
 *.o
 *.so
 *.dSYM
+*.out
 iterate_shell
