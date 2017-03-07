@@ -22,7 +22,7 @@ The project uses `clang` and the `fsanitize` so you'll need to have
 these installed on your machine, use `aptitude`
 
 ```shell
-$ aptitude install libc++1 clang clang++ lldb make libasan1 libasan1-dbg libasan0
+$ aptitude install libc++1 clang lldb make libasan1 libasan1-dbg libasan0
 ```
 
 # Windows
