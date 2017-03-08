@@ -3,3 +3,4 @@
 *.dSYM
 *.out
 iterate_shell
+*.a
