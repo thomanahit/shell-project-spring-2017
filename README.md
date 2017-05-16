@@ -9,14 +9,14 @@ Your code should be implemented in the `.cpp` files with an
 appropriate API exposed in the respective `.h` file.
 
 requirements per platforms
---------------------------
-
+-----------------------
+I have done new changes in my file ! 
 # OS X
 
 Congrats, on `OS X` you don't need to do anything other than have
 `XCode` installed.
 
-# Linux 
+# Linux
 
 The project uses `clang` and the `fsanitize` so you'll need to have
 these installed on your machine, use `aptitude`
@@ -27,7 +27,7 @@ $ aptitude install libc++1 clang lldb make libasan1 libasan1-dbg libasan0
 
 # Windows
 
-Your options are: 
+Your options are:
 
 1. Get rid of Windows, install Linux (Debian or Ubuntu is good)
 2. Dual boot Linux and Windows
@@ -48,7 +48,7 @@ it, that is turn it into something understand about. Take for example:
 $ git status
 ```
 
-What will your shell really read in? 
+What will your shell really read in?
 
 ```
 *HINT: How much should you keep reading? When do you stop reading from `stdin`?*
